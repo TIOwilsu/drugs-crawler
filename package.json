@@ -1,0 +1,17 @@
+{
+  "name": "drugs-crawler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Wilson Queiroz Rocha <wilson.queiroz@outlook.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "stop": "node --unhandled-rejections=strict"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "4.1.0",
+    "cheerio": "^1.0.0-rc.10",
+    "mongoose": "^6.1.5"
+  }
+}
